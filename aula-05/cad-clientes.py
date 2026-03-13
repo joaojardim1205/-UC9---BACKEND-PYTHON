@@ -47,5 +47,3 @@ class SistemaCadastro:
 
         except sqlite3.Error as erro:
             messagebox.showerror("Erro", f"Erro ao criar/verificar DB: {erro}")
-
-    # MÉTODO 2: criar a interface gráfica
